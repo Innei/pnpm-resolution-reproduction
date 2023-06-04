@@ -1,5 +1,5 @@
 {
-  "name": "pnpm-resolutions",
+  "name": "bar",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,10 @@
   "keywords": [],
   "author": "Innei",
   "license": "ISC",
+  "dependencies": {
+    "fastify": "4.17.0"
+  },
   "resolutions": {
-    "fast-redact": "./external/pino"
+    "pino": "./external/pino"
   }
 }
